@@ -1,0 +1,33 @@
+### Obtener todos los usuarios
+GET http://localhost:3000/usuaris
+
+### Obtener un usuario por ID
+GET http://localhost:3000/usuaris/1
+
+### Crear un nuevo usuario
+POST http://localhost:3000/usuaris
+Content-Type: application/json
+
+{
+    "id": "2",
+    "nom": "Joan Pérez",
+    "email": "joan.perez@example.com",
+    "rol": "admin",
+    "contrasenya": "hashed_password",
+    "data_creació": "2024-01-20"
+}
+
+### Actualizar un usuario
+PUT http://localhost:3000/usuaris/1
+Content-Type: application/json
+
+{
+    "nom": "Maria López (Actualizado)",
+    "email": "maria.lopez@example.com",
+    "rol": "client",
+    "contrasenya": "hashed_password",
+    "data_creació": "2024-01-01"
+}
+
+### Eliminar un usuario
+DELETE http://localhost:3000/usuaris/1
