@@ -1,0 +1,13 @@
+{
+    "id": "101",
+    "nom": "Sala de reunions A",
+    "tipus": "sala",
+    "ubicació": "Planta 1, Edifici B",
+    "descripció": "Sala equipada amb projector i capacitat per a 10 persones",
+    "estat": "disponible",
+    "característiques": {
+      "capacitat": 10,
+      "equipament": ["projector", "pissarra"]
+    }
+  }
+  

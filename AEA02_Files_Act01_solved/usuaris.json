@@ -1,0 +1,9 @@
+{
+    "id": "1",
+    "nom": "Maria López",
+    "email": "maria.lopez@example.com",
+    "rol": "client",
+    "contrasenya": "hashed_password",
+    "data_creació": "2024-01-01"
+  }
+  
